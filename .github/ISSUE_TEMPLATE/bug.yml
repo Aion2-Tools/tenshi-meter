@@ -1,0 +1,31 @@
+name: Something doesn't work
+description: Tenshi shows wrong numbers, crashes, or doesn't start.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Tenshi version
+      description: Under the Settings sidebar (for example 1.0.0).
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Where in the game you were, and what you did just before.
+    validations:
+      required: true
+  - type: dropdown
+    id: setup
+    attributes:
+      label: Installed or portable?
+      options:
+        - Installed (Setup.exe)
+        - Portable (zip)
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional)
+      description: |
+        From %LocalAppData%\Tenshi\logs\app.log. Logs can contain character names: remove them before pasting.
+      render: text

@@ -1,0 +1,9 @@
+name: An idea
+description: Something Tenshi could do, or do better.
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
