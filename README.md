@@ -55,9 +55,8 @@ After a game patch, the meter may show nothing until Tenshi is updated for it; t
 
 ## About
 
-Tenshi Meter is free and open source under the GNU GPL v3: every release has its source code
-(`Tenshi-Meter-<version>-source.zip`). Credits for the data and code it builds on are in `NOTICE.md`, next to
-`Tenshi.exe`. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
+Tenshi Meter is free. Credits are in `NOTICE.md`, next to `Tenshi.exe`. What changed in each version:
+[CHANGELOG.md](CHANGELOG.md).
 
 Tenshi Meter is a fan-made tool. It is not affiliated with or endorsed by NCSOFT. AION is a trademark of NCSOFT
 Corporation.
