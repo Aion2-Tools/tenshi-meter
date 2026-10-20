@@ -6,6 +6,60 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.3] - 2026-10-21
+
+### ✨ New
+- **Update notifications.** A dot on the tray icon and a Windows notification when an update is ready, with
+  **Restart now** and **Later**. Never while the game is in front.
+- **Clearer updates.** See the download size and progress, when Tenshi last checked, and what went wrong. Read the
+  new version's notes before you restart.
+- **Boss history.** Click the boss's name at the top of the meter to see earlier bosses and mobs.
+- **Summary line.** The fight time, your group's damage per second, its total and your ping, under the boss's name.
+- **Quick buttons.** The crown switches between Only boss and Boss + adds. The eye hides player names for
+  screenshots and streams.
+- **Skills window.** Click a player to open their skills in a window of their own.
+- **Show yourself on top**, and an optional **Crit %** column.
+- **Colors.** A color for each class, one color for every number, and the same color picker everywhere.
+- **Own opacity.** Give any overlay its own opacity in Edit HUD.
+
+### 🔧 Improved
+- **Ready from the start.** A new install reminds you of every event 5 minutes before, except Arena of Tactics, and
+  reminders also pop up while you're alt-tabbed. Up next lists only what you're reminded of. Minimap markers are on.
+- **A clearer Settings window.** Pages are grouped into Damage meter, Trackers and Tenshi, each page covers one
+  subject, the Meter page uses tabs, and every description is short and plain.
+- **One place for reminders.** Every pop-up and sound is on the Reminders page, and reminder text is bigger.
+- **One switch for every overlay.** Click-through, Lock position and Overlay opacity apply to all overlays. Hold Alt
+  over an overlay to click it.
+- **Easier numbers.** Each number shows its unit, like 1.2M/s or 34%. Hover one to see what it is.
+- **Boss bar.** A mark every 10%, red when the boss enrages, and a time to kill that turns green when you'll make it.
+- **Mobs and field bosses.** Field bosses always count. Mobs count when **Count mobs too** is on. History keeps the
+  last 200 fights.
+- **Live preview.** A sample meter beside Settings while you change the meter.
+- **Any accent color.** Pick it like every other color in Tenshi.
+- **Edit HUD** opens in the middle of the screen and says what to do.
+- **Tray menu** grouped into Damage meter, Trackers and Overlays. Tenshi's window and its hotkey are now simply
+  **Open Tenshi**.
+- **What's new is easier to read**, with the date written out, a bold lead on each change and more room between lines.
+- **Updates wait for your fight.** Downloads and restarts never interrupt a fight, and the installer shows its progress.
+- **Faster Settings.** Pages open without a pause, and sliders and switches respond at once.
+- **Ping** hides soon after the game stops answering.
+
+### 🐛 Fixed
+- The meter grows with every player again, up to Max players shown. With Pill bars or bigger text, players past the
+  fourth or fifth were cut off.
+- Pulling the meter's bottom edge no longer stops it from growing with your party, and a meter that stopped grows
+  again after this update. A fixed height can still be set in Edit HUD by turning off Height fits the players.
+- Minimap markers, Nearby and Killed pet no longer block clicks after hiding once.
+- Start with Windows works on laptops on battery, and Windows no longer stops Tenshi after 3 days.
+- When capture can't start, Tenshi says why and what to do, and keeps trying.
+- Minimap markers no longer make the overlays stutter.
+- A reminder no longer pops up twice when Tenshi restarts before its event.
+- Settings saved as Tenshi quits are kept.
+- Edit HUD's Save button and its Snap and Grid choices are easy to read.
+- The Settings preview shows every time you ask for it, even after switching apps, and only when you ask.
+- **Test reminder** shows the event's picture, like a real reminder.
+- Trying many volumes no longer uses extra memory.
+
 ## [1.0.0-rc.2] - 2026-10-20
 
 ### ✨ New
