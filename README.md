@@ -8,7 +8,7 @@
   A damage meter and companion overlay for AION 2.
 </p>
 
-## Features
+## ✨ Features
 
 - **Damage meter.** Damage, healing, damage taken and shields for you, your party or your force, with each player's
   skills, hit rates and buffs.
@@ -21,7 +21,7 @@
   its menus.
 - **Updates itself** in the background and installs when you restart it.
 
-## Download
+## 📥 Download
 
 Get the newest version from **[Releases](https://github.com/Aion2-Tools/tenshi-meter/releases/latest)**:
 
@@ -34,26 +34,26 @@ Use one or the other, not both. Both update themselves.
 
 **Needs:** Windows 10 (1809) or 11, 64-bit. Nothing else to install.
 
-## First start
+## 🚀 First start
 
 - **Windows may say it protected your PC.** Tenshi isn't code-signed yet. Click **More info**, then **Run anyway**.
 - **Tenshi asks for administrator rights when it starts.** It needs them to read the game's network traffic.
 - **Tenshi lives in the tray**, by the clock. Click its icon to show or hide the meter, double-click it to open Tenshi.
 
-## Safe by design
+## 🛡️ Safe by design
 
 - **It only reads.** Tenshi reads AION 2's network traffic on your PC. It never reads or changes the game's memory and
   never sends anything to the game or its servers.
-- **Minimap markers** are off unless you turn them on, and look only at the minimap on your screen.
+- **Minimap markers** look only at the minimap on your screen, and can be turned off in Nodes.
 - **No telemetry.** The only connection Tenshi makes is the update check.
 - **Some antivirus tools flag WinDivert**, the network driver Tenshi uses, because it can see network traffic. Tenshi
   uses it to read only.
 
-## Your files
+## 📁 Your files
 
 Settings, pet souls, logs and recordings are in `%LocalAppData%\Tenshi`. Updating or uninstalling keeps them.
 
-## Something wrong?
+## 🐛 Something wrong?
 
 [Open an issue](https://github.com/Aion2-Tools/tenshi-meter/issues/new/choose) with your Tenshi version, shown under
 the sidebar in Tenshi, and what happened. The log is `%LocalAppData%\Tenshi\logs\app.log`. **Logs and recordings can
@@ -61,7 +61,7 @@ contain character names**, so check before you attach one.
 
 After a game patch, the meter may show nothing until Tenshi is updated for it.
 
-## About
+## ℹ️ About
 
 Tenshi Meter is a free, fan-made tool. It is not affiliated with or endorsed by NCSOFT. AION is a trademark of NCSOFT
 Corporation. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
