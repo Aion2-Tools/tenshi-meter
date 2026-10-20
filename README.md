@@ -5,9 +5,21 @@
 <h1 align="center">Tenshi Meter</h1>
 
 <p align="center">
-  A DPS meter overlay for AION 2: live damage, healing and shields, skill breakdowns, past fights, an event and field
-  boss tracker with reminders, pet souls, hidden cubes and gathering nodes.
+  A damage meter and companion overlay for AION 2.
 </p>
+
+## Features
+
+- **Damage meter.** Damage, healing, damage taken and shields for you, your party or your force, with each player's
+  skills, hit rates and buffs.
+- **Boss fights.** The boss's HP, an enrage timer, time to kill, and your past fights.
+- **Event tracker.** Timed events and field boss timers in your region's server time, with reminders.
+- **Pet tracker.** The souls you collect for each pet.
+- **Hidden cubes and nodes.** A reminder when one comes into view, and markers on the game's minimap.
+- **Your layout.** Move, resize and snap every overlay in Edit HUD. Five themes, accent colors and background pictures.
+- **Stays out of the way.** Never takes focus from the game, lets clicks through, and hides with the game or during
+  its menus.
+- **Updates itself** in the background and installs when you restart it.
 
 ## Download
 
@@ -15,48 +27,41 @@ Get the newest version from **[Releases](https://github.com/Aion2-Tools/tenshi-m
 
 | | |
 |---|---|
-| **TenshiMeter-win-Setup.exe** (recommended) | Installs Tenshi for your Windows user, with a Start menu entry. No admin rights needed to install. |
+| **TenshiMeter-win-Setup.exe** (recommended) | Installs Tenshi for your Windows user. No admin rights needed to install. |
 | **TenshiMeter-win-Portable.zip** | Unzip it anywhere and run `Tenshi.exe`. |
 
-Both update themselves: Tenshi checks for a new version (Settings > Window > Updates, or the tray menu), downloads it
-in the background and installs it when you restart Tenshi. Use one or the other, not both.
+Use one or the other, not both. Both update themselves.
 
 **Needs:** Windows 10 (1809) or 11, 64-bit. Nothing else to install.
 
 ## First start
 
-- **Windows may say it protected your PC** ("Windows SmartScreen", "unknown publisher"): Tenshi isn't code-signed.
-  Click **More info**, then **Run anyway**.
-- **Tenshi asks for administrator rights every time it starts.** It needs them to read the game's network traffic
-  (with the WinDivert driver).
-- Tenshi lives in the tray (by the clock). Click its icon to show or hide the meter, double-click it for Settings.
+- **Windows may say it protected your PC.** Tenshi isn't code-signed yet. Click **More info**, then **Run anyway**.
+- **Tenshi asks for administrator rights when it starts.** It needs them to read the game's network traffic.
+- **Tenshi lives in the tray**, by the clock. Click its icon to show or hide the meter, double-click it to open Tenshi.
 
-## What Tenshi does and doesn't do
+## Safe by design
 
-- **It only reads.** It reads AION 2's network traffic on your PC. It never reads or changes the game's memory, never
-  injects anything into the game, and never sends anything to the game or its servers.
-- **The minimap markers** (off unless you turn them on) read only the part of the screen under the game's minimap.
-- **No telemetry.** The only connection Tenshi makes is the update check to GitHub.
-- **Some antivirus tools flag WinDivert**, the network driver Tenshi uses, as a "potentially unwanted" tool because it
-  can see network traffic. Tenshi uses it read-only.
+- **It only reads.** Tenshi reads AION 2's network traffic on your PC. It never reads or changes the game's memory and
+  never sends anything to the game or its servers.
+- **Minimap markers** are off unless you turn them on, and look only at the minimap on your screen.
+- **No telemetry.** The only connection Tenshi makes is the update check.
+- **Some antivirus tools flag WinDivert**, the network driver Tenshi uses, because it can see network traffic. Tenshi
+  uses it to read only.
 
 ## Your files
 
-Settings, pet souls, logs and recordings are in `%LocalAppData%\Tenshi` (Settings > Window > Open). Updates and
-uninstalling leave them where they are.
+Settings, pet souls, logs and recordings are in `%LocalAppData%\Tenshi`. Updating or uninstalling keeps them.
 
 ## Something wrong?
 
-[Open an issue](https://github.com/Aion2-Tools/tenshi-meter/issues/new/choose) with your Tenshi version (under the
-Settings sidebar) and what happened. The log is `%LocalAppData%\Tenshi\logs\app.log`. **Logs and recordings can contain
-character names**: look before you attach one.
+[Open an issue](https://github.com/Aion2-Tools/tenshi-meter/issues/new/choose) with your Tenshi version, shown under
+the sidebar in Tenshi, and what happened. The log is `%LocalAppData%\Tenshi\logs\app.log`. **Logs and recordings can
+contain character names**, so check before you attach one.
 
-After a game patch, the meter may show nothing until Tenshi is updated for it; that update usually comes quickly.
+After a game patch, the meter may show nothing until Tenshi is updated for it.
 
 ## About
 
-Tenshi Meter is free. Credits are in `NOTICE.md`, next to `Tenshi.exe`. What changed in each version:
-[CHANGELOG.md](CHANGELOG.md).
-
-Tenshi Meter is a fan-made tool. It is not affiliated with or endorsed by NCSOFT. AION is a trademark of NCSOFT
-Corporation.
+Tenshi Meter is a free, fan-made tool. It is not affiliated with or endorsed by NCSOFT. AION is a trademark of NCSOFT
+Corporation. What changed in each version: [CHANGELOG.md](CHANGELOG.md).
