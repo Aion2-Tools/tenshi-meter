@@ -6,6 +6,27 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.4] - 2026-10-21
+
+### 🔧 Improved
+- **Know when Tenshi is ready.** Until the game says who you are, the meter asks you to log in or teleport. The dot
+  next to your location is green once it knows your character and yellow until then.
+- **Overlays stay on screen.** They come back when a monitor is unplugged or the resolution changes, and windows that
+  grow with their rows (the meter, pets, skills, Nearby) grow upward at the bottom of the screen instead of off it.
+
+### 🐛 Fixed
+- **Click-through stays on.** Opening Settings no longer turns it off: the overlays take clicks while Settings is
+  open and let them through again when it closes. A hotkey another program uses pauses it instead of turning it off.
+- **Edit HUD.** Only one window is highlighted, the selected one is on top, and hidden windows no longer take clicks
+  meant for shown ones. Clicking anywhere in a window's row selects it. Arrow keys move one pixel at a time with
+  snapping on, and never off the screen. Cancel asks before undoing a window turned on or off or the meter's size.
+  Reset brings a window on another monitor onto Edit HUD's screen, and reminders can be placed on the game's screen
+  when the meter is on another one.
+- **Cancel and Undo import keep your other changes.** Edit HUD's Cancel undoes only what Edit HUD changes, and Undo
+  import only what the import brought in, so a background picture or click-through set meanwhile stays.
+- **Background pictures.** A new picture always shows in Settings' preview, and Tenshi notes in its log when a
+  picture changes or can't be found.
+
 ## [1.0.0-rc.3] - 2026-10-21
 
 ### ✨ New
