@@ -6,6 +6,42 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.5] - 2026-10-21
+
+### ✨ New
+- **A finer grid in Edit HUD.** Grid 4 places windows on every 4th pixel; every 16th line stays bold so the squares
+  still show. Shift with an arrow key moves a window one grid square.
+
+### 🔧 Improved
+- **A clearer log when something goes missing.** Tenshi notes what hid or showed the meter, and what it saw when the
+  game's connection drops and isn't found again, so a meter that stops counting after a network problem can be traced.
+- **Includes the latest security updates** of the runtime Tenshi is built on.
+- **Downloading an update shows the right size.** When a small update can't be put together and the whole version is
+  downloaded instead, Settings now says so, with the whole version's size.
+
+### 🐛 Fixed
+- **Background pictures stay after a restart.** The pictures you chose for the meter and for Settings showed until you
+  quit Tenshi and were gone the next time it started.
+- **Deaths show in the meter.** A party member who dies, or you, now gets the death marker; no death was counted before.
+- **The tray menu** no longer has an extra line at the top.
+- **Quitting with a reminder on screen** no longer writes an error to the log.
+- **A hotkey does what it says once.** Each time the meter came back on screen, its hotkeys were taken one more time,
+  so after a while one press of Show / hide could toggle it many times and leave it hidden.
+- **The overlays always come back.** When Tenshi thought a game menu was open, every overlay hid and neither the tray
+  nor a hotkey could bring them back; clicking the tray icon to get them back even turned the meter off for good. Now
+  Show / hide shows them until that menu closes, and Tenshi's log says why the overlays hid.
+- **Reminders can be dragged.** Pressing a reminder to move it closed it at once, and a moved reminder didn't keep its
+  place; now a click closes it and a drag moves it there.
+- **Starting Tenshi twice quickly** no longer can stop the first one from starting.
+- **Installing works without "Run as administrator".** Setup said "Installation failed!" when opened normally; Tenshi
+  now asks for administrator rights itself when it starts, as before.
+- **Uninstalling cleans up.** It removes the start-with-Windows task and the capture driver's service, which stayed
+  behind when uninstalling from Windows' settings, and asks whether to delete your settings, logs and recordings too.
+- **Minimap markers no longer pile up graphics memory** on PCs where their screen picture can't start (some laptops
+  with two graphics chips): each try is cleaned up at once.
+- **Capture leaves nothing behind after a crash.** Another program that uses the same capture driver can't be broken
+  by Tenshi having closed unexpectedly, and the capture keeps up better when your PC is busy.
+
 ## [1.0.0-rc.4] - 2026-10-21
 
 ### 🔧 Improved
