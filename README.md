@@ -38,7 +38,7 @@ Use one or the other, not both. Both update themselves.
 
 - **Windows may say it protected your PC.** Tenshi isn't code-signed yet. Click **More info**, then **Run anyway**.
 - **Tenshi asks for administrator rights when it starts.** It needs them to read the game's network traffic.
-- **Tenshi lives in the tray**, by the clock. Click its icon to show or hide the meter, double-click it to open Tenshi.
+- **Tenshi lives in the tray**, by the clock. Double-click its icon to open Tenshi; right-click it for the menu (show or hide the meter, and more).
 
 ## 🛡️ Safe by design
 

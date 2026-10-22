@@ -6,6 +6,62 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.6] - 2026-10-23
+
+### ✨ New
+- **Your counters under the players.** Odyle energy and Shugo Festival keys (what's extra in blue, the most in gray:
+  60 +55/840, 21 +5/30), Dimensional Invasion keys, Oath Coins and Abyss points, each with its icon. They show once the
+  game sends them, when you log in or they change, and each character's are kept, so they're there after a restart too.
+  Hover one to see its limit and when it was last updated. Turn the line or any of them off in Settings > Meter >
+  Players.
+- **Characters.** A new page in Settings with a card for each character you play: class, name, level, server, legion,
+  gear score and combat power, then Odyle energy, Shugo and Invasion keys (each with a bar showing how full it is),
+  and Oath Coins, Abyss points, Kina, Bound Kina, Daeva Pass coins and Phantasmal Fragments, each with its own icon. A
+  card is made the first time you log in on a character with Tenshi running and kept up to date; the one you're
+  playing comes first. Remove a card with its ✕: it comes back, fresh, the next time you log in on that character.
+- **A color for each text on the rows.** Settings > Meter > Look > Text colors: names, combat power, /s, Total, Share %
+  and Crit each in their own color, or the theme's. All numbers (the number color from before) colors every number
+  left on Theme, and your own name keeps its highlight.
+- **Your columns, in your order.** Settings > Meter > Players > Order moves each number (Share %, /s, Total, Crit) left
+  or right on the rows; one turned off keeps its place for when it's back.
+- **A hotkey for Characters.** Ctrl+Shift+K opens Settings at the Characters page; change it in Settings > Hotkeys.
+
+### 🔧 Improved
+- **Easier to read settings.** Each on/off choice has its own icon instead of a checkmark: what the meter shows (the
+  numbers on each row, the top line, the boss bar, the skills), each reminder's "before" and "when it starts", and what
+  pops up while alt-tabbed. Where the meter has an icon of its own, the setting uses the same one, and one that is off
+  is dimmed.
+- **Crit can't be mistaken for the share.** The crit rate on the rows has its own ✦ icon and no %, so it no longer
+  looks like the share beside it.
+- **New installs start ready to play.** Every overlay has its place and size from the start (the meter at the top,
+  skills beside it, events, pets, Nearby and the minimap markers around the screen), the Glass theme, /s, Total and
+  Crit before the share on each row, and the overlays stay up over the game's menus. Hotkeys are Ctrl+Shift and a
+  letter, clear of the keys other programs use most: Ctrl+Shift+H shows or hides the meter, Ctrl+Shift+L
+  click-through, Ctrl+Shift+O opens Tenshi, Ctrl+Shift+U Edit HUD, Ctrl+Shift+E the event tracker, Ctrl+Shift+F9
+  records, and Delete clears the meter while the game is in front. Your own settings stay as they are.
+- **Count mobs too works in dungeons.** The mobs before a boss now show on the meter as their own fight; pulling the
+  boss starts the boss's fight, and the mobs go to History. Before, mobs in dungeons never counted, whatever the
+  setting.
+- **Combat power next to the name**, with its own icon, a little bigger and in the game's cyan.
+- **Easier to read bars.** Text over the players' bars has a soft shadow, and on pills the %, total and crit are no
+  longer a gray the bar swallows.
+- **A click on the tray icon no longer hides the meter.** A single click does nothing now, so a stray click while
+  playing can't make the meter disappear. Double-click the icon to open Tenshi; show or hide the meter with
+  Ctrl+Shift+H or the icon's menu (right-click).
+- **A log that says more when something goes wrong.** It opens with Tenshi's version and your Windows, and notes your
+  screens, the game starting and closing, map changes, each fight's end, what the meter counts (only boss or boss +
+  adds, mobs or not) each time it changes, and how Tenshi quit. An error that repeats is written once with a count, not
+  many times a second, so what led up to it stays in the log, and a crash's reason is always saved.
+
+### 🐛 Fixed
+- **Start with Windows asks before running as administrator.** It used to start Tenshi as administrator without a
+  prompt, straight from its install folder, which other programs running as you can change. Now Tenshi starts as you
+  and asks through Windows' usual prompt (or not, as your UAC setting has it), like when you start it yourself. Turned
+  on before, it's switched to the new way the next time Tenshi starts.
+- **The overlays stay in front of the game after using the preview.** With the meter's preview open in Settings,
+  going back to the game could leave every overlay behind it until Tenshi was restarted. Now an overlay that ends up
+  behind the game comes back to the front by itself, and Tenshi's log notes when that happens.
+
 ## [1.0.0-rc.5] - 2026-10-21
 
 ### ✨ New
