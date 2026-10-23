@@ -6,6 +6,35 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.7] - 2026-10-23
+
+### ✨ New
+- **The map: where to go, one of the most asked-for features.** A new map button opens the region's map with every
+  spot you're looking for, and the teleport artifacts around it so you can pick the closest one. Hover a spot to see
+  what it is; scroll to zoom, drag to move. It opens at once, gets sharper as you zoom in, and frees its memory when
+  you close it.
+- **Pets: where to farm each one.** In Settings > Pets and on the Pets panel, 160 of the 165 pets that come from
+  monsters' souls have a map button that shows every spot their monsters spawn at. Pick Elyos or Asmodians above the
+  list and the map opens on that side; pets tagged Both sides can be farmed on either.
+- **Nodes: where each one grows.** In Settings > Nodes, every gathering node outside dungeons (27 of 30) has a map
+  button that shows every spot it grows at, in both of its side's lands.
+- **Bosses: where each one spawns.** In Settings > Events > Bosses, every field boss of Verteron and Altgard and every
+  Abyss boss has a map button. Each boss is marked with a boss icon on its spot, and Guardian Lord Nahma on all three
+  of its islands.
+- **Animated backgrounds.** The meter's background (Settings > Meter > Look) and Settings' own (Settings >
+  Appearance) take an animated GIF as well as a picture. It plays at its own pace, at most 20 frames a second, only
+  while it's on screen, and is kept small in memory.
+
+### 🔧 Improved
+- **The numbers' order shows their icons.** In Settings > Meter > Players > Order, each number has the same icon as
+  under On each row.
+- **Thousands as k.** The meter writes 60.7k/s and 470.7k instead of 60.7K/s and 470.7K.
+
+### 🐛 Fixed
+- **Combat power for party members who moved server.** A party member whose character moved to another server got
+  no combat power and wasn't counted in the party, and the members listed after them were missed too. Every member
+  is now read with their home server and combat power, and so is every member of a force of more than 12.
+
 ## [1.0.0-rc.6] - 2026-10-23
 
 ### ✨ New
