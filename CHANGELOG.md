@@ -6,6 +6,71 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.8] - 2026-10-28
+
+### ✨ New
+- **Support Tenshi.** Settings > Updates shows how many times Tenshi was downloaded, with buttons to star it on
+  GitHub, follow its maker and support it on Ko-fi.
+
+### 🔧 Improved
+- **Odyle energy refills on its own.** On the meter's line and each character's card, Odyle energy goes up by 15 every
+  3 hours as in the game, alts included, even when they aren't played. Hovering it says when the next 15 comes.
+- **Skill icons.** Each skill in a player's skills window shows its icon from the game. The window is a little wider
+  for them, so skill names keep their room.
+- **Clearer release notes.** What's new in Settings > Updates is easier to read: larger text, and each section in its
+  own color with its emoji, as on the release page.
+- **Your pets on the minimap.** With minimap markers on, the nearest spots where the monsters of the pets you track
+  spawn show on the minimap as small dots in the color of the pet's type; when none is in view, an arrow on its edge
+  points toward the nearest.
+- **Steadier minimap markers.** Markers no longer shake when the minimap's picture wavers by a pixel or two.
+- **Pet souls as a ring.** Each pet's icon, in Settings and on the pet panels, has a ring that fills with its souls
+  toward the next level, in the color of its type.
+- **Track up to 5 nodes**, each with its own minimap color (was 3).
+- **Untrack every node at once.** One box at the top of the Settings > Nodes list untracks every node and the cube.
+- **Characters say how fresh they are.** Each card says "Updated 5 min ago" or "Updated yesterday", the exact time on
+  hover.
+- **Pet farming at a glance.** Settings > Pets sums up your pets (unlocked, maxed, still to farm) and filters the
+  list to the pets still to farm or the maxed ones. One box above the list untracks every pet.
+- **Clearer pet lines.** On the pet panels each pet says how many souls its next level needs, and long names no
+  longer run under the souls. In Settings each pet shows its type as a colored label, and hovering it lists each monster
+  that drops it, with its level and where it lives.
+- **Themes switch at once.** Picking a theme in Settings > Appearance changes everything right away.
+- **Tabs stay put.** The meter's tabs, the event tracker's tabs and the tabs and choices in Settings and Edit HUD no
+  longer shift as you pick one.
+- **Hide rules apply at once.** Turning a rule for hiding the overlays on or off takes effect immediately.
+- **Lighter.** Tenshi's pictures take 7 MB of memory instead of 18 MB, and the download is smaller.
+- **Faster lists in Settings.** Searching or filtering the Pets, Nodes and Events lists no longer redraws the whole
+  list on each letter, and History and the character cards change only what changed.
+- **Updates are hard to miss.** Once an update is ready, a red line on the meter says so; click it to open
+  Settings > Updates and restart. The tray icon's dot is now red.
+
+### 🐛 Fixed
+- **Your party and force.** An open-world party now shows as your party (it was only you). In a force, your party
+  shows as your party and the others as the force (the force wasn't recognized), and it follows members leaving and
+  joining. Browsing the party finder no longer drops your real party, and restarting Tenshi in a party keeps it.
+- **Players' names no longer land on the wrong player.** A name could be given to another player or monster nearby.
+- **Opening the map no longer closes Tenshi.** Opening a map from a pet, node or boss could stop Tenshi with "a
+  different thread owns it".
+- **The Killed pet note no longer shows a map button** it couldn't use, which crowded its souls.
+- **Settings survive a PC crash.** A crash or power cut right after a change could leave your settings empty, and a
+  change made while an antivirus or backup tool held the file could be lost. Both are saved safely now.
+- **Strangers no longer count as your party.** Alone in the open world, other players fighting nearby could show up
+  under My party. Tenshi now goes by the game's party list only, so your party or force is exactly who is in it, and
+  leaving it is noticed.
+- **The minimap range Tenshi learned is kept exactly.** Settings > Nodes rounded it to whole meters.
+- **Settings > Nodes hides the learning rows when the markers couldn't start.**
+- **The click-through tooltip names your hotkey as it is now**, also after you change it.
+- **Hotkeys you import show at once**, even with Settings open.
+- **A file that isn't a picture is reported only under the picture you were choosing**, not under both.
+- **Settings' preview no longer writes its sample fights to Tenshi's log.**
+- **"Restarts after this fight" no longer gets stuck.** If the update it was waiting to install went away (a newer
+  download failed and took it along), Tenshi kept saying it would restart after the fight. It now calls the restart off.
+- **Fights no longer end early when Windows sets its clock.** When Windows corrected the PC's time during a session,
+  a running fight could end at once (trash fights kept splitting, a training dummy's fight stopped mid-rotation), or
+  stop ending on its own. Fights now time themselves on a clock Windows doesn't move.
+- **No more wrong full screen warning on loading screens.** In borderless mode, the minimap markers could warn you to
+  change a setting that was already right.
+
 ## [1.0.0-rc.7] - 2026-10-23
 
 ### ✨ New

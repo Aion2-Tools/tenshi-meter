@@ -8,6 +8,11 @@
   A damage meter and companion overlay for AION 2.
 </p>
 
+<p align="center">
+  <a href="https://github.com/Aion2-Tools/tenshi-meter/releases/latest"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAion2-Tools%2Ftenshi-meter%2Fmain%2Fdownloads.json&style=for-the-badge" alt="Downloads"></a>
+  <a href="https://ko-fi.com/yushi47"><img src="https://img.shields.io/badge/Ko--fi-Support%20Tenshi-72A4F2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support Tenshi on Ko-fi"></a>
+</p>
+
 ## ✨ Features
 
 - **Damage meter.** Damage, healing, damage taken and shields for you, your party or your force, with each player's
@@ -45,7 +50,8 @@ Use one or the other, not both. Both update themselves.
 - **It only reads.** Tenshi reads AION 2's network traffic on your PC. It never reads or changes the game's memory and
   never sends anything to the game or its servers.
 - **Minimap markers** look only at the minimap on your screen, and can be turned off in Nodes.
-- **No telemetry.** The only connection Tenshi makes is the update check.
+- **No telemetry.** Tenshi connects only to its page on GitHub: to check for updates, and to show in Settings > Updates
+  how many times it was downloaded. With automatic update checks off, it connects only when you click Check for updates.
 - **Some antivirus tools flag WinDivert**, the network driver Tenshi uses, because it can see network traffic. Tenshi
   uses it to read only.
 
