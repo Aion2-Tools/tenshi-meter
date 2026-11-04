@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/Aion2-Tools/tenshi-meter/releases/latest"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FAion2-Tools%2Ftenshi-meter%2Fmain%2Fdownloads.json&style=for-the-badge" alt="Downloads"></a>
-  <a href="https://ko-fi.com/yushi47"><img src="https://img.shields.io/badge/Ko--fi-Support%20Tenshi-72A4F2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support Tenshi on Ko-fi"></a>
+  <a href="https://ko-fi.com/tenshimeter"><img src="https://img.shields.io/badge/Ko--fi-Support%20Tenshi-72A4F2?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support Tenshi on Ko-fi"></a>
 </p>
 
 ## ✨ Features
