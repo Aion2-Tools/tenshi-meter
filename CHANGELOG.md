@@ -6,6 +6,11 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.11] - 2026-11-06
+
+### 🐛 Fixed
+- **The map gives back its memory.** Closing the map frees the memory its picture used.
+
 ## [1.0.0-rc.10] - 2026-11-06
 
 ### ✨ New
