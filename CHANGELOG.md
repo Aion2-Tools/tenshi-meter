@@ -6,6 +6,11 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.12] - 2026-11-07
+
+### 🐛 Fixed
+- **HP bar of Ludra's Fusion Reactor and the Abyss's Dimensional Cores.** Their fights now show their HP.
+
 ## [1.0.0-rc.11] - 2026-11-06
 
 ### 🐛 Fixed
