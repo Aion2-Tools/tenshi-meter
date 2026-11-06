@@ -6,78 +6,61 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.10] - 2026-11-06
+
+### ✨ New
+- **Which Kibelisk to go to.** Field bosses and pet monsters show the Kibelisk to teleport to: in Settings > Events,
+  reminders and pet tooltips.
+- **Clock on the meter.** Your PC's time or the server's at the right of the bottom line, in 12 or 24 hours (Settings >
+  Meter > Bottom bar).
+
+### 🔧 Improved
+- **Players shown: Only me or Party / Force.** One choice that follows your group, with up to 10 players by default.
+- **Names and texts from the Global client.** Maps, NPCs, bosses, buffs, food and pet monsters now match the game.
+- **Chaotic Outer Reshanta on the map**, with its teleports and its pet monsters.
+- **More gathering nodes** in the south of Eltnen and Morheim.
+- **Every dungeon is known as one.** Minimap markers stay off in dungeons, and reminders stay quiet there if you chose
+  that.
+- **Argo, the Spirit King's reminder** is on by default.
+- **Odyle energy and Shugo keys** show the extra in brackets, like 75(+155)/840.
+- **Meter settings, one tab per part.** Top bar, Boss, Players, Skills, Bottom bar and Look, with shorter texts.
+- **Simpler pet list.** Settings > Pets has tabs for All, Tracking, To farm and Maxed; To farm shows the pets closest to
+  max first, and the star is gone.
+
+### 🐛 Fixed
+- **Your party in a force.** In raids like Abyssal Forge: Ludra, the meter showed only your own damage.
+- **Fights keep everyone who fought them.** Players who left, or a group that ended, no longer disappear from the fight.
+- **Artifact Siege days.** Thursdays and Saturdays only, since the November 4 patch.
+- **Gartua and High Commander Lagta** come back after 11 hours, not 12.
+- **Enrage timers.** Ultimate Berk, Divine Auldor, Transcendent Bakarma and Vakron enrage after 4 minutes, not 5.
+- **Combat Assist texts.** Noble Aura, Healing Enhancement and Blessing of Life show the game's numbers.
+
 ## [1.0.0-rc.9] - 2026-11-05
 
 ### ✨ New
-- **Combat Assist.** Your cooldowns and the buffs on you, as round icons next to your character.
-  - Each icon has a ring that runs out with the time left, and the seconds in the middle.
-  - A skill on cooldown is dimmed, and glows once when it's ready again.
-  - A buff's ring turns the warning color just before it ends.
-  - A mantra shows as on for as long as it lasts.
-  - A buff you picked that isn't on you stays in its place, greyed out, so you see what's missing.
-  - A buff from a party member has a small person mark.
-  - A potion shows its cooldown; a scroll or a meal shows its buff's time left.
-  - The icons stay centered in their panel: adding or removing one grows or shrinks the row evenly on both sides.
-  - Its skills and buffs panels start just right of and below your character, the buffs under the skills.
-  - Turn it on in the tray or in Settings > Combat Assist, and place its skills and buffs panels in Edit HUD.
-- **Pick what Combat Assist shows.** In Settings > Combat Assist:
-  - Your class's skills, laid out like the game's skill window: Active, Stigma, Passive.
-  - Every class's party buffs, like a Templar's shield or a Chanter's mantras.
-  - Potions, scrolls, and food and drinks, each in its grade's color (Artisan's green, Dark Dragon's blue).
-  - Hover any icon to see what it does, in the game's own words, with its specialties or its cooldown.
-  - Drag the icons into the order you want.
-  - Three presets for each class, each with a name shown on the panel and a hotkey of its own (Settings > Hotkeys).
-  - Choose the ring colors and the icon size.
-  - Share your presets: exported settings carry them, and importing someone's can bring in only those.
-- **Boss stagger.** A boss's stagger gauge, under its HP.
-  - A thin line shows how much of the gauge is left ("Stagger 84 / 150").
-  - When it breaks, the line turns green and counts the stagger down ("Staggered 3.2 s").
-  - The times it broke are counted.
-  - Turn it off with the Stagger chip in Settings > Meter > Boss.
-- **Kina in storage.** In Settings > Characters:
-  - Each character's card shows the Kina in their storage, next to the Kina they carry.
-  - Each server shows the Kina in the storage its characters share.
+- **Combat Assist.** Your cooldowns and buffs as round icons next to your character. Turn it on in the tray or in
+  Settings.
+- **Pick what Combat Assist shows.** Skills, party buffs, potions and food, in your order, with three presets per class.
+- **Boss stagger.** A boss's stagger gauge under its HP, and how often it broke.
+- **Kina in storage.** Settings > Characters shows each character's stored Kina and each server's shared storage.
 
 ### 🔧 Improved
-- **Characters at a glance.** Settings > Characters is easier to scan.
-  - Your characters are grouped by server, one row each, with Odyle energy, Kina, gear score and combat power.
-  - Click a row to see the rest. The one you're playing starts open, and Tenshi remembers which ones you opened.
-  - Shugo and Invasion keys, which the game counts per server, show once next to the server's name.
-  - Removing a character is inside its opened row, away from where you click to open it.
-- **Star and sort your pets.** In Settings > Pets:
-  - Star a pet to keep it near the top of the list, after the ones you track, without tracking it.
-  - Sort by name, or by closest to max: the fewest souls left to the top level first, so pets on their last level
-    come before ones just unlocked.
-- **Clear selection.** Settings > Pets and Settings > Nodes have a Clear selection button above the list, in place
-  of the box that untracked everything.
-- **The event tracker counts down.** In the last 2 minutes before an event starts or a boss is back, the tracker
-  counts down in seconds ("in 1:59", "Back in 0:42").
-- **The Pets panel's map opens where you are.** In Altgard, a pet's map button shows Altgard when its monsters
-  spawn there, and otherwise your side's land. Settings > Pets still follows its Elyos or Asmodians filter.
-- **Siege cores and Ludra Hard on the meter.** When you attack a Dimensional Core (the orb in the Artifact Siege), the
-  meter shows everyone's damage on it and its HP bar, as it does for a field boss. In Abyssal Forge: Ludra's new Hard
-  mode, the meter shows each boss and your damage on it, as in Normal mode.
-- **Training dummy with your party.** The meter on a training dummy follows your Solo / Party / Force choice, like
-  any boss: in a party, your party's damage shows with yours. Players outside your group hitting the same dummy
-  still don't count.
-- **Starts sooner, rests more.** The meter's window opens a little sooner after you start Tenshi. Minimap markers
-  turned off no longer use any CPU, and they use less while the game isn't in front.
+- **Characters at a glance.** Settings > Characters groups your characters by server, one row each.
+- **Star and sort your pets.** Star a pet to keep it near the top, and sort by name or by closest to max.
+- **Clear selection** in Settings > Pets and Settings > Nodes.
+- **The event tracker counts down** in seconds in the last 2 minutes.
+- **The Pets panel's map opens where you are.**
+- **Siege cores and Ludra Hard on the meter**, with everyone's damage and the core's HP.
+- **Training dummy with your party.** The meter on a dummy follows your player choice, like any boss.
+- **Starts sooner, uses less.** Tenshi opens faster, and minimap markers use no CPU when off.
 
 ### 🐛 Fixed
-- **Kina after storing all of it.** A character who stored all their Kina kept showing it on their card. It now
-  shows 0, and logging in always brings the card's Kina back in line with the game.
-- **Click-through with Settings open.** While Settings was open, the overlays stopped letting clicks through, and
-  turning click-through on or off did nothing until Settings closed. Click-through now always does what it's set to;
-  hold Alt over an overlay to click it.
-- **Pet count with special pets.** Special pets were counted with the pets you farm, so a character could show more
-  pets unlocked than there are. Only the pets you farm are counted now.
-- **Reminder time buttons stay put.** In Settings > Events, the − and + next to an event's reminder time no longer
-  move as the time changes, so you can click them again and again.
-- **Filters stay put.** In Settings > Pets and Settings > Nodes, searching or picking a side, a type or a level no
-  longer moves the page, so the filters stay under your mouse.
-- **Boss fight time and DPS.** A boss that reset kept the fight's clock running for up to 30 seconds after, and a
-  fight that went quiet counted the 90 seconds waited, so DPS showed too low. A fight now ends when the boss reset or
-  at its last hit. Pulling the boss again right after it reset starts a new fight instead of adding to the old one.
+- **Kina after storing all of it.** The character's card now shows 0.
+- **Click-through with Settings open** works as set; hold Alt over an overlay to click it.
+- **Pet count.** Special pets are no longer counted.
+- **Reminder time buttons** in Settings > Events no longer move as you click them.
+- **Filters** in Settings > Pets and Settings > Nodes no longer move the page.
+- **Boss fight time and DPS.** A fight ends when the boss resets or at its last hit, so DPS is no longer too low.
 
 ## [1.0.0-rc.8] - 2026-10-28
 
