@@ -6,6 +6,24 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.13] - 2026-11-11
+
+### ✨ New
+- **Now playing.** A panel shows the music or video playing on your PC, Spotify for example, with its buttons and volume.
+
+### 🐛 Fixed
+- **Damage shows again after the November 11 game patch.** The meter follows you into dungeons and other maps again.
+- **Fire Temple and Ferocious Horn Den on Hard.** Their last bosses' frenzy timer is 4 minutes, as the game now has it.
+- **HP of every boss in past fights.** A boss you fight during another boss's fight shows its HP instead of 0.
+- **Hard dungeons say so.** Krao Cave, Urugugu Canyon, Fire Temple, Draupnir, Vakron Sky Island, Abyssal Forge: Ludra
+  and Ferocious Horn Den show "(Hard)" after their name on Hard.
+- **Numbers read the same everywhere.** Counters, tooltips and dates now write numbers the way the meter does, whatever
+  your Windows region.
+- **Party and Force show your group.** Your party and force members are listed even when Tenshi starts while you are
+  already in a group, or when a force forms around you.
+- **Field boss fights stay whole.** A field boss fight goes on through your pauses while others keep hitting the boss.
+- **HP of the Abyss bosses.** Guardian Lord Nahma and other bosses with very high HP show their HP instead of 0.
+
 ## [1.0.0-rc.12] - 2026-11-07
 
 ### 🐛 Fixed
