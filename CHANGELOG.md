@@ -6,6 +6,19 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.14] - 2026-11-19
+
+### ✨ New
+- **Abyssal Forge: Ludra on Easy.** The new Easy mode is named "(Easy)", with its bosses and Ludra's 10-minute frenzy.
+
+### 🔧 Improved
+- **Names from the November 18 patch.** Skills and monsters the patch renamed show their new names.
+
+### 🐛 Fixed
+- **Damage shows again after the November 18 game patch.** The meter follows you into dungeons and other maps again.
+- **Your force after a map change.** In the open world your force stays a force when you change map or start Tenshi.
+- **Scroll and food durations.** Combat Assist shows 10 minutes for scrolls, food and drinks, as the game now gives.
+
 ## [1.0.0-rc.13] - 2026-11-11
 
 ### ✨ New
