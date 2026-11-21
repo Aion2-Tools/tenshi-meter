@@ -6,6 +6,17 @@ with a few lines about Tenshi before them.
 
 ## [Unreleased]
 
+## [1.0.0-rc.15] - 2026-11-21
+
+### 🔧 Improved
+- **Combat Assist at a glance.** Skills you can't use yet and buffs not on you turn grey; ready skills show in full color.
+- **Combat Assist flash.** A skill flashes clearly when it can be used again, also when a charge comes back. Its color can be set, or it can be turned off.
+- **Combat Assist colors.** The color of the seconds can be set too, and the rings are a little thicker, right against their icons.
+- **Combat Assist settings.** The page is laid out like the Meter page, its panels and its look each in their own group.
+
+### 🐛 Fixed
+- **Skill charges in Combat Assist.** Using a skill's last charge now shows 0 charges left.
+
 ## [1.0.0-rc.14] - 2026-11-19
 
 ### ✨ New
